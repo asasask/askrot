@@ -1,0 +1,144 @@
+body {
+  background: #5d8d99;
+  font-family: "Nunito", sans-serif;
+  color: #222;
+}
+
+* {
+  transition: all .65s ease;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 75em;
+  margin: 0 auto;
+}
+
+.header {
+  text-align: center;
+  background: #4e4e4e1a;
+  color: white;
+  padding: 0.625em;
+}
+.header .container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.header .site-title, .header .site-tagline {
+  font-weight: 400;
+}
+  .mySlides {display:none;}
+
+  .site-title, h1, h2, h3 {
+    font-family: "Righteous", sans-serif;
+    font-size: 2.625em;
+    color: #024654;
+  }
+  
+  h3 {
+    font-size: 2em;
+    color: #f7686e;
+  }
+  
+  .site-title {
+    color: white;
+  }
+  
+  .site-tagline {
+    font-size: 1.125em;
+    font-style: italic;
+  }
+  p{
+    text-align:center;
+  }
+  
+  
+  
+  .full-bleed {
+    background-size: cover;
+    min-height: 300px;
+    width: 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+  }
+
+  .footer {
+    background: #4e4e4e1a;
+    color: white;
+    padding: 0.9375em;
+    text-align: center;
+    font-size: 0.8125em;
+  }
+  .footer a {
+    color: #3f3f3f;
+    text-decoration: none;
+    border-bottom: 1px solid;
+  }
+  .floot{
+    float: left;
+  }
+  table {
+    border-collapse: collapse;
+    width:100%;
+  }
+  
+  th, td {
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even){background-color: #f2f2f2}
+  
+  th {
+    background-color: #aaa;
+    color: white;
+  }
+  table {
+    border-collapse: collapse; 
+    width: 100%; 
+    margin-bottom: 20px; 
+  }
+  
+  th {
+    text-align: left; 
+    background-color: #f2f2f2; 
+    font-weight: bold; 
+    padding: 8px; 
+    border: 1px solid #ddd; 
+  }
+  
+  td {
+    padding: 8px; 
+    border: 1px solid #ddd; 
+  }
+
+  .carousel {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .carousel-button {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #ffffff;
+    border-radius: 4px;
+    font-size: 1.2rem;
+    padding: 8px 16px;
+    margin: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .carousel-button:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+
+  .carousel-button.disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+  }
+  
